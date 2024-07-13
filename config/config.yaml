@@ -1,0 +1,7 @@
+artifacts_root: artifacts
+
+#data dowloading and making path for saving it
+data_ingestion:
+  root_dir:artifacts/data_ingestion
+  source_URL:https://github.com/ShalinVachheta017/Text-Summarization-Project/tree/main/samsum_dataset  
+  local_data_file:artifacts/data_ingestion/data
