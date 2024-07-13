@@ -1,20 +1,59 @@
-transformers
-transformers[sentencepiece]
-datasets
-sacrebleu 
-rouge_score 
-py7zr
-pandas
-nltk
-tqdm
-PyYAML
-matplotlib
-notebook
-boto3
-mypy-boto3-s3
-python-box==6.0.2
-ensure==1.0.2
-fastapi==0.78.0
-uvicorn==0.18.3
-Jinja2==3.1.2
--e .
+# Hugging Face Transformers library for state-of-the-art natural language processing models
+transformers  
+
+ # Additional tokenization support for models using SentencePiece
+transformers[sentencepiece] 
+
+# Hugging Face Datasets library for accessing and processing datasets
+datasets  
+
+# BLEU score computation for evaluating machine translation quality
+sacrebleu  
+
+# ROUGE score computation for evaluating text summarization and generation
+rouge_score  
+
+# Library for handling 7-zip archives
+py7zr  
+
+
+pandas  # Data manipulation and analysis library
+
+# Natural Language Toolkit for text processing and linguistic analysis
+nltk 
+
+# Library for displaying progress bars in loops and iterables
+tqdm  
+
+# YAML parser and emitter for Python
+PyYAML  
+
+# Plotting and visualization library
+matplotlib  
+
+# Jupyter Notebook package for interactive computing
+notebook  
+
+# AWS SDK for Python for interacting with Amazon Web Services
+boto3  
+
+# Type annotations for Boto3 S3 client
+mypy-boto3-s3  
+
+# Python dictionaries with dot notation access
+python-box==6.0.2 
+
+# Ensures certain conditions are met in code execution
+ensure==1.0.2  
+
+# FastAPI framework for building APIs with Python 3.6+ based on standard Python type hints
+fastapi==0.78.0  
+
+# ASGI server for serving FastAPI applications
+uvicorn==0.18.3 
+
+# Template engine for Pytho
+Jinja2==3.1.2  n
+
+# Install the current project in editable mode/setup.py
+-e . 
