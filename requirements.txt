@@ -53,7 +53,7 @@ fastapi==0.78.0
 uvicorn==0.18.3 
 
 # Template engine for Pytho
-Jinja2==3.1.2  n
+Jinja2==3.1.2  
 
 # Install the current project in editable mode/setup.py
--e . 
+-e .

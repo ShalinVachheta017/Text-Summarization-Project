@@ -11,7 +11,7 @@ __version__ = "0.0.0"
 # Define metadata for the package
 REPO_NAME = "Text-Summarization-Project"  # The name of the GitHub repository
 AUTHOR_USER_NAME = "ShalinVachheta017"  # GitHub username of the author
-SRC_REPO = "textsummarizer"  # The name of the source repository
+SRC_REPO = "textSummarizer"  # The name of the source repository
 AUTHOR_EMAIL = "shalinvachheta2016@hotmail.com"  # Author's email address
 
 # Setup function to provide package details and metadata
