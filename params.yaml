@@ -1,6 +1,5 @@
-#this file makes easy to  customise the diffrent values for 
+# this file makes easy to  customise the diffrent values for 
 # training and testing
-
 TrainingArguments:
   num_train_epochs: 1
   warmup_steps: 500
@@ -10,7 +9,4 @@ TrainingArguments:
   evaluation_strategy: steps
   eval_steps: 500
   save_steps: 1e6
-  gradient_accumulation_steps: 4
-
-
-
+  gradient_accumulation_steps: 8
